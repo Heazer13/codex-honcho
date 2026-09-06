@@ -231,3 +231,7 @@ MIT — see [LICENSE](LICENSE)
 - **Discord**: [Join the community](https://discord.gg/plasticlabs)
 - **X**: [@honchodotdev](https://x.com/honchodotdev)
 - **Plastic Labs**: [plasticlabs.ai](https://plasticlabs.ai)
+
+### Chat-instance identity
+
+Chat-instance sessions preserve the full Codex session identifier. Truncating timestamp-based IDs can merge independent conversations started close together. Existing shortened sessions remain available in Honcho; new writes use the full identifier.
